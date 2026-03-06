@@ -14,7 +14,7 @@ class HomeController {
         @RequestParam(defaultValue = "") value: String,
     ): String {
         if (name.isBlank()) {
-            return "parameter `name` is required!"
+            return "parameter `name` is required!!"
         }
 
         if (value.isBlank()) {
